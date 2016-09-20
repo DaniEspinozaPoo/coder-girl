@@ -1,0 +1,154 @@
+.primera-parte{
+	padding: 2px 4px 2px 4px;
+	background-color: #CFFBEF;
+}
+.logo{
+	width: 25%;
+	margin-left: 15%;
+}
+
+
+ul, li,  a {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;	
+	text-align: center;
+	color: #737491;
+	font-size: 14px;
+	font-family: Arial;
+	margin-left: 20px;
+	margin-top: 12px;
+
+}
+
+
+.bars {
+	background-color: #622A4D;
+	color: #F4FBEB;
+    font-size: 100px;
+    display: none;
+    position: absolute;
+    right: 20%;
+}
+
+
+.fondo-chicas{
+	background-image: url(../img/home.jpg);
+	height: 400px;
+	padding: 3% 3%;
+}
+.texto-chicas{
+    padding-top: 7%;
+	text-align: center;
+}
+
+.texto-chicas h1{
+	color: #EDFBF0;
+}
+.texto-chicas button{
+	background-color: #FBA1C8;
+	color: #FDFCFF;
+	text-align: center;
+	padding-bottom: 1%;
+	padding-right: 2%;
+	border-radius: 8%;
+}
+.container{
+	padding-bottom: 3%;
+}
+.nuestro-documental{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.texto-code{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.documental{
+    width: 80%;
+	height: 280px;
+	margin-left: 8%;
+}
+
+.cuarta-parte{
+	background-color: #FFAFA7;
+	padding: 3% 4% 3% 4%;
+}
+
+.hack{
+	width: 100%;
+}
+
+.texto-hack h2{
+	text-align: center;
+	font-family: 'Poiret One';
+}
+
+.texto-hack p{
+	font-family: 'Poiret One';
+}
+
+.texto-hack button{
+	background-color: #FAFFBE;
+	color: #FFF3F7;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-right: 4%;
+	border-radius: 8%;
+
+}
+
+.quinta-parte{
+	padding: 7% 4% 7% 4%;
+}
+
+.made{
+	width: 100%;
+	margin: 3% 4% 5% 4%;
+}
+
+form , input{
+   margin-top: 3%;
+   width: 100%;
+}
+
+.texto-contacto p{
+	font-family: 'Poiret One';
+}
+
+textarea{
+	margin-top: 3%;
+	max-width: 200%;
+	min-height: 100px;
+}
+#buton{
+	width: 20%;
+	background-color: #FF9D68;
+	border-radius: 5%;
+	margin-top: 2%;
+}
+
+footer{
+	background-color: #7A94C1;
+    color: #EFF2FF;
+    padding: 3% 5% 3% 4%;
+}
+
+@media (max-width: 479px) {
+	.bars {
+		color: #5806FF;
+	    font-size: 50px;
+	    display: block;
+	    position: absolute;
+	  
+	    font-size: 42px;
+	}
+
+	nav{
+		display: none
+	}
+}     
